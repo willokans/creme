@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Expert Models - AccountAccess">
+	<test name="AccountAccess Regression Tests" preserve-order="true">
+		<classes>
+			<!--<class name="Reg_Django.APIRegFunctionality"/> -->
+            <class name="Reg_AccountAccess.LogInPageValidation"/>
+			<class name="Reg_AccountAccess.UserProfileAccountPage"/>
+            <class name="Reg_AccountAccess.PasswordResetFuncViaAccountPage"/>
+            <class name="Reg_AccountAccess.PasswordResetFuncViaForgotPasswordEmail"/>
+            <class name="Reg_AccountAccess.TeamPage"/>
+            <class name="Reg_AccountAccess.MyProfilePageFunctionality"/>
+			<class name="Reg_AccountAccess.ForgotPasswordFunctionality"/>
+		</classes>
+	</test>
+
+</suite>

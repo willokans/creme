@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Expert Models - Regression Pack" preserve-order="true">
+	<test name="Account Access Regression Suite" preserve-order="true">
+		<classes>
+			<!--<class name="Reg_Django.APIRegFunctionality"/> -->
+            <class name="Reg_AccountAccess.LogInPageValidation"/>
+			<class name="Reg_AccountAccess.UserProfileAccountPage"/>
+            <class name="Reg_AccountAccess.PasswordResetFuncViaAccountPage"/>
+            <class name="Reg_AccountAccess.PasswordResetFuncViaForgotPasswordEmail"/>
+            <class name="Reg_AccountAccess.TeamPage"/>
+            <class name="Reg_AccountAccess.MyProfilePageFunctionality"/>
+			<class name="Reg_AccountAccess.ForgotPasswordFunctionality"/>
+		</classes>
+	</test>
+	<test name="EMHeader Regression Suite" preserve-order="true">
+		<classes>
+			<class name="Reg_EMHeader.ContentsActionsAndRedirects"/>
+            <class name="Reg_EMHeader.SearchFunctionality"/>
+		</classes>
+	</test>
+	<test name="Export Regression Suite" preserve-order="true">
+		<classes>
+			<class name="Reg_Export.MenuOptionVerification"/>
+            <class name="Reg_Export.ActionExportPage"/>
+		</classes>
+	</test>
+	<test name="Import Regression Suite" preserve-order="true">
+		<classes>
+			<class name="Reg_Import.PageFunctionalityAndContents" />
+            <class name="Reg_Import.ImportOptionsFunctionality" />
+            <class name="Reg_Import.MatchingFunctionality" />
+		</classes>
+	</test>
+	<test name="File System Regression Suite" preserve-order="true">
+        <classes> 
+            <class name="Reg_FileSystem.SystemFolderRedirectAndNavigation" />
+        </classes>
+    </test>
+</suite>

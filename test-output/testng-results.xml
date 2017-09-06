@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="1" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="144142" started-at="2017-02-06T13:57:05Z" finished-at="2017-02-06T13:59:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="144142" started-at="2017-02-06T13:57:05Z" finished-at="2017-02-06T13:59:30Z">
+      <class name="Reg_AccountAccess.LogInPageValidation">
+        <test-method status="PASS" signature="configLogging()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="configLogging" is-config="true" duration-ms="9" started-at="2017-02-06T13:57:05Z" finished-at="2017-02-06T13:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogging -->
+        <test-method status="PASS" signature="beforeClassSetup()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="beforeClassSetup" is-config="true" duration-ms="81" started-at="2017-02-06T13:57:05Z" finished-at="2017-02-06T13:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="setup" is-config="true" duration-ms="84" started-at="2017-02-06T13:57:05Z" finished-at="2017-02-06T13:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createActiveUserProfile()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="createActiveUserProfile" duration-ms="12278" started-at="2017-02-06T13:57:06Z" finished-at="2017-02-06T13:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createActiveUserProfile -->
+        <test-method status="PASS" signature="screenCap(org.testng.ITestResult)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="screenCap" is-config="true" duration-ms="1" started-at="2017-02-06T13:57:18Z" finished-at="2017-02-06T13:57:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createActiveUserProfile status=SUCCESS method=LogInPageValidation.createActiveUserProfile()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCap -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="setup" is-config="true" duration-ms="16" started-at="2017-02-06T13:57:18Z" finished-at="2017-02-06T13:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="pageValidationAndErrorVerification()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="pageValidationAndErrorVerification" duration-ms="62923" started-at="2017-02-06T13:57:18Z" depends-on-methods="Reg_AccountAccess.LogInPageValidation.createActiveUserProfile" finished-at="2017-02-06T13:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageValidationAndErrorVerification -->
+        <test-method status="PASS" signature="screenCap(org.testng.ITestResult)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="screenCap" is-config="true" duration-ms="1" started-at="2017-02-06T13:58:21Z" finished-at="2017-02-06T13:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pageValidationAndErrorVerification status=SUCCESS method=LogInPageValidation.pageValidationAndErrorVerification()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCap -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="setup" is-config="true" duration-ms="86" started-at="2017-02-06T13:58:21Z" finished-at="2017-02-06T13:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="logOut" duration-ms="19760" started-at="2017-02-06T13:58:21Z" depends-on-methods="Reg_AccountAccess.LogInPageValidation.pageValidationAndErrorVerification" finished-at="2017-02-06T13:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="screenCap(org.testng.ITestResult)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="screenCap" is-config="true" duration-ms="0" started-at="2017-02-06T13:58:41Z" finished-at="2017-02-06T13:58:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOut status=SUCCESS method=LogInPageValidation.logOut()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCap -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="setup" is-config="true" duration-ms="34" started-at="2017-02-06T13:58:41Z" finished-at="2017-02-06T13:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="emailAuthenticationErrorMessageTest()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="emailAuthenticationErrorMessageTest" duration-ms="18696" started-at="2017-02-06T13:58:41Z" depends-on-methods="Reg_AccountAccess.LogInPageValidation.logOut" finished-at="2017-02-06T13:58:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [This email has not yet been verified. A new activation link has been sent to your email address.] but found [Unable to login with provided credentials.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [This email has not yet been verified. A new activation link has been sent to your email address.] but found [Unable to login with provided credentials.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Page.classes.LogInPage.verifyNonAuthenticatedLoginErrorMessage(LogInPage.java:448)
+	at Reg_AccountAccess.LogInPageValidation.emailAuthenticationErrorMessageTest(LogInPageValidation.java:214)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailAuthenticationErrorMessageTest -->
+        <test-method status="PASS" signature="screenCap(org.testng.ITestResult)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="screenCap" is-config="true" duration-ms="132" started-at="2017-02-06T13:58:59Z" finished-at="2017-02-06T13:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emailAuthenticationErrorMessageTest status=FAILURE method=LogInPageValidation.emailAuthenticationErrorMessageTest()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCap -->
+        <test-method status="SKIP" signature="verifyCaseVariationsOfEmailAddressesAreAccepted(java.lang.String)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="verifyCaseVariationsOfEmailAddressesAreAccepted" duration-ms="0" started-at="2017-02-06T13:58:59Z" data-provider="caseVariations" depends-on-methods="Reg_AccountAccess.LogInPageValidation.emailAuthenticationErrorMessageTest" finished-at="2017-02-06T13:58:59Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LogInPageValidation.verifyCaseVariationsOfEmailAddressesAreAccepted(java.lang.String)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LogInPageValidation.verifyCaseVariationsOfEmailAddressesAreAccepted(java.lang.String)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCaseVariationsOfEmailAddressesAreAccepted -->
+        <test-method status="SKIP" signature="verifyVariationsOfValidCaseSensitivePasswordsAreNotAccepted(java.lang.String)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="verifyVariationsOfValidCaseSensitivePasswordsAreNotAccepted" duration-ms="0" started-at="2017-02-06T13:58:59Z" data-provider="pwdCaseVariations" depends-on-methods="Reg_AccountAccess.LogInPageValidation.verifyCaseVariationsOfEmailAddressesAreAccepted" finished-at="2017-02-06T13:58:59Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LogInPageValidation.verifyVariationsOfValidCaseSensitivePasswordsAreNotAccepted(java.lang.String)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LogInPageValidation.verifyVariationsOfValidCaseSensitivePasswordsAreNotAccepted(java.lang.String)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVariationsOfValidCaseSensitivePasswordsAreNotAccepted -->
+        <test-method status="SKIP" signature="verifyIncorrectEmailSyntaxError(java.lang.String)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="verifyIncorrectEmailSyntaxError" duration-ms="0" started-at="2017-02-06T13:58:59Z" data-provider="incorrectEmailSyntax" depends-on-methods="Reg_AccountAccess.LogInPageValidation.verifyVariationsOfValidCaseSensitivePasswordsAreNotAccepted" finished-at="2017-02-06T13:58:59Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LogInPageValidation.verifyIncorrectEmailSyntaxError(java.lang.String)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LogInPageValidation.verifyIncorrectEmailSyntaxError(java.lang.String)[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectEmailSyntaxError -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Reg_AccountAccess.LogInPageValidation@10163d6]" name="tearDown" is-config="true" duration-ms="30026" started-at="2017-02-06T13:58:59Z" finished-at="2017-02-06T13:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Reg_AccountAccess.LogInPageValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

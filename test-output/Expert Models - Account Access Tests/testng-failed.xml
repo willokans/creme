@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Expert Models - Account Access Tests]">
+  <test name="AccountAccessRegressionTest">
+    <classes>
+      <class name="Reg_AccountAccess.LogInPageValidation"/>
+      <class name="Reg_AccountAccess.UserProfileAccountPage"/>
+      <class name="Reg_AccountAccess.PasswordResetFuncViaAccountPage"/>
+      <class name="Reg_AccountAccess.PasswordResetFuncViaForgotPasswordEmail"/>
+      <class name="Reg_AccountAccess.TeamPage"/>
+      <class name="Reg_AccountAccess.MyProfilePageFunctionality"/>
+      <class name="Reg_AccountAccess.ForgotPasswordFunctionality"/>
+    </classes>
+  </test> <!-- AccountAccessRegressionTest -->
+  <test name="AccountAccessRegressionTest(failed)">
+    <classes>
+      <class name="Reg_AccountAccess.PasswordResetFuncViaAccountPage">
+        <methods>
+          <include name="VerifyChangePasswordFunctionality"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="screenCap"/>
+          <include name="changePasswordPageValidation"/>
+          <include name="createActiveUserProfile"/>
+          <include name="beforeClassSetup"/>
+        </methods>
+      </class> <!-- Reg_AccountAccess.PasswordResetFuncViaAccountPage -->
+      <class name="Reg_AccountAccess.TeamPage">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="screenCap"/>
+          <include name="beforeClassSetup"/>
+        </methods>
+      </class> <!-- Reg_AccountAccess.TeamPage -->
+      <class name="Reg_AccountAccess.ForgotPasswordFunctionality">
+        <methods>
+          <include name="verifyAccessCredentialsPostPasswordChange"/>
+          <include name="setup"/>
+          <include name="verifyPageContentsAndStatus"/>
+          <include name="verifyActivationEmailReceivedAndDelete"/>
+          <include name="createInactiveUserProfile"/>
+          <include name="tearDown"/>
+          <include name="activateUserProfileAndVerifyForgotPasswordAccepted"/>
+          <include name="verifyForgotPasswordErrorMessages"/>
+          <include name="verifyPasswordResetEmailAndChangePassword"/>
+          <include name="beforeClassSetup"/>
+          <include name="screenCap"/>
+        </methods>
+      </class> <!-- Reg_AccountAccess.ForgotPasswordFunctionality -->
+      <class name="Reg_AccountAccess.MyProfilePageFunctionality">
+        <methods>
+          <include name="beforeClassSetup"/>
+          <include name="screenCap"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Reg_AccountAccess.MyProfilePageFunctionality -->
+      <class name="Reg_AccountAccess.PasswordResetFuncViaForgotPasswordEmail">
+        <methods>
+          <include name="verifyCanNotLoginOldPassword"/>
+          <include name="setup"/>
+          <include name="clickOnLostPasswordlink"/>
+          <include name="redirectToChangePasswordPage"/>
+          <include name="resetPasswordAgainFieldBlank"/>
+          <include name="resetPasswordFieldBlank"/>
+          <include name="verifyCanLogInNewPassword"/>
+          <include name="passwordsDoNotMatch"/>
+          <include name="passwordShorterThanMinLength"/>
+          <include name="resetPasswordFunctionality"/>
+          <include name="screenCap"/>
+          <include name="verifyGoBackToLoginLinkFunctionality"/>
+          <include name="createActiveUserProfile"/>
+          <include name="verifyUserRedirectedToLoginPage"/>
+          <include name="tearDown"/>
+          <include name="forgotPasswordEmail"/>
+          <include name="deleteEmailFromZohoAccount"/>
+          <include name="verifyChangePasswordPage"/>
+          <include name="resetPassword"/>
+          <include name="resetPasswordandPasswordAgainFieldsBlank"/>
+          <include name="backToInbox"/>
+          <include name="passwordDoNotMeetCriteria"/>
+          <include name="beforeClassSetup"/>
+        </methods>
+      </class> <!-- Reg_AccountAccess.PasswordResetFuncViaForgotPasswordEmail -->
+      <class name="Reg_AccountAccess.UserProfileAccountPage">
+        <methods>
+          <include name="beforeClassSetup"/>
+          <include name="screenCap"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Reg_AccountAccess.UserProfileAccountPage -->
+      <class name="Reg_AccountAccess.LogInPageValidation">
+        <methods>
+          <include name="createActiveUserProfile"/>
+          <include name="beforeClassSetup"/>
+          <include name="verifyCaseVariationsOfEmailAddressesAreAccepted"/>
+          <include name="verifyVariationsOfValidCaseSensitivePasswordsAreNotAccepted"/>
+          <include name="logOut"/>
+          <include name="pageValidationAndErrorVerification"/>
+          <include name="verifyIncorrectEmailSyntaxError"/>
+          <include name="configLogging"/>
+          <include name="setup"/>
+          <include name="emailAuthenticationErrorMessageTest"/>
+          <include name="screenCap"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Reg_AccountAccess.LogInPageValidation -->
+    </classes>
+  </test> <!-- AccountAccessRegressionTest(failed) -->
+</suite> <!-- Failed suite [Expert Models - Account Access Tests] -->

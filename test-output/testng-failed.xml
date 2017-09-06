@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="Reg_AccountAccess.LogInPageValidation"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Reg_AccountAccess.LogInPageValidation">
+        <methods>
+          <include name="createActiveUserProfile"/>
+          <include name="beforeClassSetup"/>
+          <include name="verifyCaseVariationsOfEmailAddressesAreAccepted"/>
+          <include name="verifyVariationsOfValidCaseSensitivePasswordsAreNotAccepted"/>
+          <include name="logOut"/>
+          <include name="pageValidationAndErrorVerification"/>
+          <include name="verifyIncorrectEmailSyntaxError"/>
+          <include name="configLogging"/>
+          <include name="setup"/>
+          <include name="emailAuthenticationErrorMessageTest"/>
+          <include name="screenCap"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Reg_AccountAccess.LogInPageValidation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

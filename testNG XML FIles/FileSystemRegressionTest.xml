@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Expert Models - File System Tests">
+    <test name="FileSystemRegressionTest" preserve-order="true">
+        <classes>
+            <!-- <class name="Reg_FileSystem.SortFunctionality" /> -->
+            <!-- <class name="Reg_FileSystem.ActionMenuOption" /> -->
+            <!-- <class name="Reg_FileSystem.ContentsAndCreateFunctionality" /> -->
+            <!-- <class name="Reg_FileSystem.CookieTrailFunctionality" /> -->
+            <!-- <class name="Reg_FileSystem.CopyFunctionality" /> -->
+            <!-- <class name="Reg_FileSystem.CopyToFunctionality" /> -->
+            <!-- <class name="Reg_FileSystem.MoveFunctionality" /> -->
+            <!-- <class name="Reg_FileSystem.RenameFunctionality" /> -->
+            <class name="Reg_FileSystem.SystemFolderRedirectAndNavigation" />
+            <!-- <class name="Reg_FileSystem.TrashFolderAndActionFunctionality" /> -->
+            <!-- <class name="Reg_FileSystem.UndoFunctionality" /> -->
+
+        </classes>
+    </test>
+
+</suite>
